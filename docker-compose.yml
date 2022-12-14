@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  pbs-node-api:
+      container_name: pbs-node-api
+      build:
+          context: ./
+          dockerfile: Dockerfile
+        
+      command: npm start
+      ports:
+          - '9981:9981'
+      restart: always
+      working_dir: /home/node/app
+      volumes:
+        - ./photos:/home/node/app/photos
+        - ./cookies:/home/node/app/cookies

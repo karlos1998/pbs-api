@@ -1,0 +1,25 @@
+{
+  "name": "pbs-api",
+  "version": "1.0.0",
+  "description": "Curl application with api to PBS Bank (Poland)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlos1998/pbs-api.git"
+  },
+  "author": "Karol Sójka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlos1998/pbs-api/issues"
+  },
+  "homepage": "https://github.com/karlos1998/pbs-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer": "^19.4.0"
+  }
+}
